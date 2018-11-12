@@ -1,0 +1,162 @@
+    body {
+    background-color: #F2F2F2;
+    margin: 0;
+}
+    h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #8C3F54;
+    font-weight: 300;
+    
+}
+
+    h6 {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    color: #686473;
+    letter-spacing: 3px;
+    font-weight: 200;
+    font-size: 10px;
+    margin-top: -22px;
+    margin-bottom: 40px;
+
+}
+
+    .rectangle {
+    margin-bottom: 20px;
+    background-color: #D9BAC3;
+    height: 2px;
+    width: 100%;
+}
+
+
+    nav a {
+    background-color: #F2F2F2;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    color: #726154;
+
+   
+}
+
+     p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+    color: #3D434D;
+    text-align: center;
+
+
+}
+
+
+
+    img {
+    object-fit: cover;
+    width: 100%;
+
+}
+
+    footer {
+    
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+
+
+}
+
+@media (min-width: 800px) {
+
+    header {
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 80px;
+        text-align: center;
+        font-weight: 300;
+        margin: 30px;
+
+    }
+
+    h6 {
+        font-size: 16px;
+        letter-spacing: 9px;
+        padding: 0;
+       
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a {
+    
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 20px;
+       
+    }
+
+
+    nav a:hover {
+        color: #A07D6A;
+    }
+
+    .img-container{
+        display: flex;
+        justify-content: center;
+        
+    
+    }
+
+    
+    img {
+        
+        width: 500px;
+        height: 500px;
+        margin: 2px;
+    
+    }
+      
+    img:hover {
+        filter: blur(2px) brightness(60%);
+        transition:opacity 2s;
+      }
+
+    .image {
+        position: relative;
+        
+
+      }
+    
+    p:hover {
+        opacity: 1;
+          
+      }
+
+    p {
+       margin-left: 55px; 
+       position: absolute;
+       top: 30%;
+       font-family: 'Roboto Condensed', sans-serif;
+       font-weight: 300;
+       color: #F2F2F2;
+       text-align: center;
+       width: 80%;
+       opacity: 0;
+       transition: 2s;
+      }
+
+}
+
+
